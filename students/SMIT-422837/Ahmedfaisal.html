@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ahmed - Professional Portfolio</title>
+    <meta name="description" content="Web Developer + UX Designer Portfolio">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap" as="style">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Combined and minified CSS -->
+     <link rel="stylesheet" href="./Ahmedfaisal.css">
+    <style>
+       
+
+    </style>
+    
+    <!-- Non-critical CSS loaded asynchronously -->
+   <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="styles.css"></noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap">
+    </noscript>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="tj-header-area">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto">
+                    <div class="logo-box d-flex align-items-center">
+                        <img src="" alt="">
+                        <!-- NEW: Gradient username -->
+                        <span class="username">Ahmed</span>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="header-menu">
+                        <ul class="ul-reset">
+                            <li><a href="#home" class="nav-links">Home</a></li>
+                            <li><a href="#services" class="nav-links">Services</a></li>
+                            <li><a href="#portfolio" class="nav-links">Portfolio</a></li>
+                            <li><a href="#resume" class="nav-links">Resume</a></li>
+                            <li><a href="#skills" class="nav-links">Skills</a></li>
+                            <li><a href="#testimonials" class="nav-links">Testimonials</a></li>
+                            <li><a href="#contact" class="nav-links">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-bar d-lg-none">
+                        <button id="menu-toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-auto d-flex align-items-center">
+                    <button class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <a href="#contact" class="btn tj-btn-primary d-none d-md-inline-block">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content-box">
+                        <span class="hero-sub-title">Web Developer & UX Designer</span>
+                        <h1 class="hero-title">Hi, I'm <span class="username">Ahmed</span></h1>
+                        <p class="lead">I create beautiful, functional websites and applications with a focus on user experience and modern design principles.</p>
+                        <div class="button-box">
+                            <a href="#portfolio" class="btn tj-btn-primary">View My Work</a>
+                            <a href="#contact" class="btn tj-btn-secondary">Contact Me</a>
+                        </div>
+                        <ul class="social-icons ul-reset">
+                            <li><a href="https://www.linkedin.com/in/muhammed-ahmed-2803072a3/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://github.com/ahmeddev812" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.facebook.com/saira.faisal2003" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com/ahmeddddd.__/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image-box">
+                        <img src="./Assets/Me.jpg" alt="Ahmed - Web Developer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">My Services</h2>
+                <p class="desc">I offer a range of services to help bring your digital vision to life</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-item fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p>Custom websites and web applications built with modern technologies and best practices.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-item fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="service-title">UI/UX Design</h3>
+                    <p>User-centered design solutions that enhance usability and create engaging experiences.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-item fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">Responsive Design</h3>
+                    <p>Websites that look and function perfectly on all devices, from desktop to mobile.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Portfolio Section -->
+<section id="portfolio" class="portfolio-section">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2 class="section-title">My Projects</h2>
+            <p class="desc">A showcase of my diverse development work across multiple domains</p>
+        </div>
+        
+        <!-- Project Categories -->
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="ecommerce">E-Commerce & Business</button>
+            <button class="filter-btn" data-filter="portfolio">Portfolio & Branding</button>
+            <button class="filter-btn" data-filter="creative">Creative & Design</button>
+            <button class="filter-btn" data-filter="technical">Technical & Development</button>
+        </div>
+        
+        <!-- All Projects -->
+        <div class="portfolio-grid-all" id="all-projects-grid">
+            <!-- E-commerce Sample -->
+            <div class="portfolio-item fade-in" data-category="ecommerce">
+                <div class="portfolio-image">
+                    <img src="./Assets/E-commerce Sample.png" alt="E-commerce Sample">
+                </div>
+                <div class="portfolio-content">
+                    <div class="project-badge ecommerce-badge">E-Commerce</div>
+                    <h3 class="portfolio-title">E-commerce Sample Store</h3>
+                    <p>A complete e-commerce platform with product catalog, shopping cart, and checkout functionality.</p>
+                    <div class="project-meta">
+                        <span class="meta-item"><i class="fas fa-calendar"></i> Sep 2025</span>
+                        <span class="meta-item"><i class="fas fa-code"></i> HTML, CSS, JavaScript</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://gamingearpro.netlify.app/" class="project-btn live-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-btn github-btn">
+                            <i class="fab fa-github"></i> Github Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ShopGrid -->
+            <div class="portfolio-item fade-in" data-category="ecommerce">
+                <div class="portfolio-image">
+                    <img src="./Assets/Shopgrid.png" alt="ShopGrid">
+                </div>
+                <div class="portfolio-content">
+                    <div class="project-badge ecommerce-badge">E-Commerce Platform</div>
+                    <h3 class="portfolio-title">ShopGrid Marketplace</h3>
+                    <p>Multi-vendor e-commerce platform with advanced product filtering and vendor management.</p>
+                    <div class="project-meta">
+                        <span class="meta-item"><i class="fas fa-calendar"></i> Jul 2025</span>
+                        <span class="meta-item"><i class="fas fa-code"></i> HTML, CSS, JavaScript</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://shopgrid1.netlify.app/" class="project-btn live-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-btn github-btn">
+                            <i class="fab fa-github"></i>  Github Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Meezan Bank -->
+            <div class="portfolio-item fade-in" data-category="ecommerce">
+                <div class="portfolio-image">
+                    <img src="./Assets/Meezan Bank.png" alt="Meezan">
+                </div>
+                <div class="portfolio-content">
+                    <div class="project-badge finance-badge">Banking Interface</div>
+                    <h3 class="portfolio-title">Meezan Bank </h3>
+                    <p>Banking interface prototype with account management, transactions, and financial dashboard.</p>
+                    <div class="project-meta">
+                        <span class="meta-item"><i class="fas fa-calendar"></i> Aug 2025</span>
+                        <span class="meta-item"><i class="fas fa-code"></i> HTML, CSS, JavaScript</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://meezanbank1.netlify.app/" class="project-btn live-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-btn github-btn">
+                            <i class="fab fa-github"></i>  Github Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- E-book Portfolio -->
+            <div class="portfolio-item fade-in" data-category="portfolio">
+                <div class="portfolio-image">
+                    <img src="./Assets/ebook.png" alt="E-book Portfolio">
+                </div>
+                <div class="portfolio-content">
+                    <div class="project-badge portfolio-badge">Specialized Portfolio</div>
+                    <h3 class="portfolio-title">E-book Focused Portfolio</h3>
+                    <p>Portfolio specifically designed for showcasing e-book projects and digital publications.</p>
+                    <div class="project-meta">
+                        <span class="meta-item"><i class="fas fa-calendar"></i> Jun 2025</span>
+                        <span class="meta-item"><i class="fas fa-code"></i> HTML, CSS, JavaScript</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://e-bookproject1.netlify.app/" class="project-btn live-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-btn github-btn">
+                            <i class="fab fa-github"></i>  Github Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+           <!-- SolPlant -->
+<div class="portfolio-item fade-in" data-category="ecommerce">
+    <div class="portfolio-image">
+        <img src="./Assets/SolPlant.png" alt="SolPlant">
+    </div> <!-- This closing div was missing -->
+    <div class="portfolio-content">
+        <div class="project-badge energy-badge">Energy Solution</div>
+        <h3 class="portfolio-title">SolPlant Energy Platform</h3>
+        <p>Solar energy company website with service catalog, calculator, and customer portal.</p>
+        <div class="project-meta">
+            <span class="meta-item"><i class="fas fa-calendar"></i> Oct 2025</span>
+            <span class="meta-item"><i class="fas fa-code"></i> HTML, CSS, JavaScript</span>
+        </div>
+        <div class="project-buttons">
+            <a href="https://solplant1.netlify.app/" class="project-btn live-btn" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            <a href="#" class="project-btn github-btn">
+                <i class="fab fa-github"></i>  Github Link
+            </a>
+        </div>
+    </div>
+</div>
+            
+            <!-- Freelance Portfolio -->
+            <div class="portfolio-item fade-in" data-category="portfolio">
+                <div class="portfolio-image">
+                    <img src="./Assets/Freelance.png" alt="Personal Portfolio">
+                </div>
+                <div class="portfolio-content">
+                    <div class="project-badge portfolio-badge">Main Portfolio</div>
+                    <h3 class="portfolio-title">Freelance Portfolio</h3>
+                    <p>My primary professional portfolio showcasing skills, projects, and experience.</p>
+                    <div class="project-meta">
+                        <span class="meta-item"><i class="fas fa-calendar"></i> Sep 2025</span>
+                        <span class="meta-item"><i class="fas fa-code"></i> HTML, CSS, JavaScript</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" class="project-btn live-btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-btn github-btn">
+                            <i class="fab fa-github"></i>  Github Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+            <!-- Comic Book -->
+            <div class="portfolio-item fade-in" data-category="creative">
+                <div class="portfolio-image">
+                    <img src="Assets/comic.png" alt="Comic Book">
+                </div>
+                <div class="portfolio-content">
+                    <div class="project-badge creative-badge">Entertainment</div>
+                    <h3 class="portfolio-title">Comic Book Website</h3>
+                    <p>Interactive comic book platform with digital reading experience and community features.</p>
+                    <div class="project-meta">
+                        <span class="meta-item"><i class="fas fa-calendar"></i> Jul 2025</span>
+                        <span class="meta-item"><i class="fas fa-code"></i> HTML, CSS, JavaScript</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" class="project-btn live-btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-btn github-btn">
+                            <i class="fab fa-github"></i>  Github Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sapphire -->
+            <div class="portfolio-item fade-in" data-category="creative">
+                <div class="portfolio-image">
+                    <img src="./Assets/sapphire.png" alt="Sapphire">
+                </div>
+                <div class="portfolio-content">
+                    <div class="project-badge creative-badge">Design System</div>
+                    <h3 class="portfolio-title">Sapphire Design Framework</h3>
+                    <p>Custom design system and component library with consistent styling and interactions.</p>
+                    <div class="project-meta">
+                        <span class="meta-item"><i class="fas fa-calendar"></i> Jul 2025</span>
+                        <span class="meta-item"><i class="fas fa-code"></i> HTML, CSS, JavaScript</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" class="project-btn live-btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-btn github-btn">
+                            <i class="fab fa-github"></i>  Github Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- JS-Engineers -->
+            <div class="portfolio-item fade-in" data-category="technical">
+                <div class="portfolio-image">
+                    <img src="./Assets/JS ENGINEERS.png" alt="JS-Engineers">
+                </div>
+                <div class="portfolio-content">
+                    <div class="project-badge technical-badge">Developer Community</div>
+                    <h3 class="portfolio-title">JS-Engineers Platform</h3>
+                    <p>Developer community website with tutorials, code snippets, and collaboration tools.</p>
+                    <div class="project-meta">
+                        <span class="meta-item"><i class="fas fa-calendar"></i> Jul 2025</span>
+                        <span class="meta-item"><i class="fas fa-code"></i> HTML, CSS, JavaScript</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" class="project-btn live-btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-btn github-btn">
+                            <i class="fab fa-github"></i>  Github Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+         
+        <!-- Category Sections (Hidden by default) -->
+        <div class="portfolio-categories-container" id="category-sections" style="display: none;">
+            <!-- Category sections will be shown here when specific category is selected -->
+        </div>
+    </div>
+</section>
+               
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">My Resume</h2>
+                <p class="desc">My professional journey and qualifications</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Education</h3>
+                    <div class="resume-timeline">
+                        <div class="resume-item fade-in">
+                            <span class="resume-date">2018 - 2022</span>
+                            <h4 class="resume-title">Bachelor of Computer Science</h4>
+                            <p class="resume-company">University of Technology</p>
+                            <p>Graduated with honors, specializing in web technologies and user experience design.</p>
+                        </div>
+                        <div class="resume-item fade-in">
+                            <span class="resume-date">2020 - 2021</span>
+                            <h4 class="resume-title">UX Design Certification</h4>
+                            <p class="resume-company">Interaction Design Foundation</p>
+                            <p>Completed advanced courses in user research, prototyping, and usability testing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Experience</h3>
+                    <div class="resume-timeline">
+                        <div class="resume-item fade-in">
+                            <span class="resume-date">2022 - Present</span>
+                            <h4 class="resume-title">Senior Web Developer</h4>
+                            <p class="resume-company">Tech Solutions Inc.</p>
+                            <p>Leading development of responsive web applications and mentoring junior developers.</p>
+                        </div>
+                        <div class="resume-item fade-in">
+                            <span class="resume-date">2020 - 2022</span>
+                            <h4 class="resume-title">Frontend Developer</h4>
+                            <p class="resume-company">Digital Creative Agency</p>
+                            <p>Developed interactive websites and collaborated with designers to implement UI/UX designs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">My Skills</h2>
+                <p class="desc">Technologies and tools I specialize in</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5" style="color: #e34f26; font-size: 3rem;"></i>
+                    </div>
+                    <div class="skill-progress">
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <p>HTML5</p>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt" style="color: #1572b6; font-size: 3rem;"></i>
+                    </div>
+                    <div class="skill-progress">
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <p>CSS3</p>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <i class="fab fa-js" style="color: #f7df1e; font-size: 3rem;"></i>
+                    </div>
+                    <div class="skill-progress">
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <i class="fab fa-react" style="color: #61dafb; font-size: 3rem;"></i>
+                    </div>
+                    <div class="skill-progress">
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <p>React</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="desc">What my clients say about working with me</p>
+            </div>
+            <div class="testimonials-slider">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-item fade-in">
+                    <div class="testimonial-quote">
+                        Ahmed delivered an exceptional website that exceeded our expectations. His attention to detail and understanding of our brand was impressive.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzAiIGhlaWdodD0iNzAiIHZpZXdCb3g9IjAgMCA3MCA3MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMzUiIGN5PSIzNSIgcj0iMzUiIGZpbGw9IiNmMWY1ZjkiLz4KPHBhdGggZD0iTTM1IDM1QzM4Ljg2NiAzNSA0MiAzMS44NjYgNDIgMjhDNDIgMjQuMTM0IDM4Ljg2NiAyMSAzNSAyMUMzMS4xMzQgMjEgMjggMjQuMTM0IDI4IDI4QzI4IDMxLjg2NiAzMS4xMzQgMzUgMzUgMzVaIiBmaWxsPSIjNmM2M2ZmIi8+CjxwYXRoIGQ9Ik0zNSAzNUMzOC44NjYgMzUgNDIgMzEuODY2IDQyIDI4QzQyIDI0LjEzNCAzOC44NjYgMjEgMzUgMjFDMzEuMTM0IDIxIDI4IDI0LjEzNCAyOCAyOEMyOCAzMS44NjYgMzEuMTM0IDM1IDM1IDM1WiIgZmlsbD0iIzZjNjNmZiIvPgo8cGF0aCBkPSJNNDIgNDlDMzcuNTgyIDQ5IDM0IDQ1LjQxOCAzNCA0MUwzNiA0MUMzNiA0My43NjEgMzguMjM5IDQ2IDQxIDQ2SDQyVjQ5WiIgZmlsbD0iIzZjNjNmZiIvPgo8L3N2Zz4K" alt="Sarah Johnson">
+                        </div>
+                        <div class="author-details">
+                            <h4 class="author-name">Sarah Johnson</h4>
+                            <p class="author-role">Marketing Director, TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-item fade-in">
+                    <div class="testimonial-quote">
+                        Working with Ahmed was a pleasure. He transformed our complex requirements into a beautiful, user-friendly application that our customers love.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzAiIGhlaWdodD0iNzAiIHZpZXdCb3g9IjAgMCA3MCA3MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMzUiIGN5PSIzNSIgcj0iMzUiIGZpbGw9IiNmMWY1ZjkiLz4KPHBhdGggZD0iTTM1IDM1QzM4Ljg2NiAzNSA0MiAzMS44NjYgNDIgMjhDNDIgMjQuMTM0IDM4Ljg2NiAyMSAzNSAyMUMzMS4xMzQgMjEgMjggMjQuMTM0IDI4IDI4QzI4IDMxLjg2NiAzMS4xMzQgMzUgMzUgMzVaIiBmaWxsPSIjZjA5M2ZiIi8+CjxwYXRoIGQ9Ik0zNSAzNUMzOC44NjYgMzUgNDIgMzEuODY2IDQyIDI4QzQyIDI0LjEzNCAzOC44NjYgMjEgMzUgMjFDMzEuMTM0IDIxIDI4IDI0LjEzNCAyOCAyOEMyOCAzMS44NjYgMzEuMTM0IDM1IDM1IDM1WiIgZmlsbD0iI2YwOTNmYiIvPgo8cGF0aCBkPSJNNDIgNDlDMzcuNTgyIDQ5IDM0IDQ1LjQxOCAzNCA0MUwzNiA0MUMzNiA0My43NjEgMzguMjM5IDQ2IDQxIDQ2SDQyVjQ5WiIgZmlsbD0iI2YwOTNmYiIvPgo8L3N2Zz4K" alt="Michael Chen">
+                        </div>
+                        <div class="author-details">
+                            <h4 class="author-name">Michael Chen</h4>
+                            <p class="author-role">Product Manager, StartupXYZ</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- NEW: Additional Testimonial 3 -->
+                <div class="testimonial-item fade-in">
+                    <div class="testimonial-quote">
+                        Ahmed's design expertise helped us rebrand our company with a fresh, modern identity that resonates with our target audience.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzAiIGhlaWdodD0iNzAiIHZpZXdCb3g9IjAgMCA3MCA3MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMzUiIGN5PSIzNSIgcj0iMzUiIGZpbGw9IiNmMWY1ZjkiLz4KPHBhdGggZD0iTTM1IDM1QzM4Ljg2NiAzNSA0MiAzMS44NjYgNDIgMjhDNDIgMjQuMTM0IDM4Ljg2NiAyMSAzNSAyMUMzMS4xMzQgMjEgMjggMjQuMTM0IDI4IDI4QzI4IDMxLjg2NiAzMS4xMzQgMzUgMzUgMzVaIiBmaWxsPSIjODI0ZmZmIi8+CjxwYXRoIGQ9Ik0zNSAzNUMzOC44NjYgMzUgNDIgMzEuODY2IDQyIDI4QzQyIDI0LjEzNCAzOC44NjYgMjEgMzUgMjFDMzEuMTM0IDIxIDI4IDI0LjEzNCAyOCAyOEMyOCAzMS44NjYgMzEuMTM0IDM1IDM1IDM1WiIgZmlsbD0iIzgyNGZmZiIvPgo8cGF0aCBkPSJNNDIgNDlDMzcuNTgyIDQ5IDM0IDQ1LjQxOCAzNCA0MUwzNiA0MUMzNiA0My43NjEgMzguMjM5IDQ2IDQxIDQ2SDQyVjQ5WiIgZmlsbD0iIzgyNGZmZiIvPgo8L3N2Zz4K" alt="Emma Rodriguez">
+                        </div>
+                        <div class="author-details">
+                            <h4 class="author-name">Emma Rodriguez</h4>
+                            <p class="author-role">Creative Director, DesignStudio</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- NEW: Additional Testimonial 4 -->
+                <div class="testimonial-item fade-in">
+                    <div class="testimonial-quote">
+                        The website Ahmed developed for us has significantly improved our online presence and user engagement. His technical skills are outstanding.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzAiIGhlaWdodD0iNzAiIHZpZXdCb3g9IjAgMCA3MCA3MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMzUiIGN5PSIzNSIgcj0iMzUiIGZpbGw9IiNmMWY1ZjkiLz4KPHBhdGggZD0iTTM1IDM1QzM4Ljg2NiAzNSA0MiAzMS44NjYgNDIgMjhDNDIgMjQuMTM0IDM4Ljg2NiAyMSAzNSAyMUMzMS4xMzQgMjEgMjggMjQuMTM0IDI4IDI4QzI4IDMxLjg2NiAzMS4xMzQgMzUgMzUgMzVaIiBmaWxsPSIjZjU1NzZjIi8+CjxwYXRoIGQ9Ik0zNSAzNUMzOC44NjYgMzUgNDIgMzEuODY2IDQyIDI4QzQyIDI0LjEzNCAzOC44NjYgMjEgMzUgMjFDMzEuMTM0IDIxIDI4IDI0LjEzNCAyOCAyOEMyOCAzMS44NjYgMzEuMTM0IDM1IDM1IDM1WiIgZmlsbD0iI2Y1NTc2YyIvPgo8cGF0aCBkPSJNNDIgNDlDMzcuNTgyIDQ5IDM0IDQ1LjQxOCAzNCA0MUwzNiA0MUMzNiA0My43NjEgMzguMjM5IDQ2IDQxIDQ2SDQyVjQ5WiIgZmlsbD0iI2Y1NTc2YyIvPgo8L3N2Zz4K" alt="David Wilson">
+                        </div>
+                        <div class="author-details">
+                            <h4 class="author-name">David Wilson</h4>
+                            <p class="author-role">CEO, BusinessSolutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="desc">Ready to start your next project? Let's talk!</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <form class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="name" placeholder=" " required>
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" id="email" placeholder=" " required>
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder=" " required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder=" " required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn tj-btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <div class="contact-item fade-in">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Jamshed Town</p>
+                            </div>
+                        </div>
+                        <div class="contact-item fade-in">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <a href="tel:+1234567890">+92 3313773604</a>
+                            </div>
+                        </div>
+                        <div class="contact-item fade-in">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="https://mail.google.com/mail/u/0/#inbox">mahmedfaisal2005@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="tj-footer-area">
+        <div class="container">
+            <div class="footer-logo-box text-center">
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHZpZXdCb3g9IjAgMCA4MCA4MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQwIDBDMTcuOTA4NyAwIDAgMTcuOTA4NyAwIDQwQzAgNjIuMDkxMyAxNy45MDg3IDgwIDQwIDgwQzYyLjA5MTMgODAgODAgNjIuMDkxMyA4MCA0MEM4MCAxNy45MDg3IDYyLjA5MTMgMCA0MCAwWk00MCA3MkMyMi4zMjY5IDcyIDggNTcuNjczMSA4IDRDOCAyNi4zMjY5IDIyLjMyNjkgNDAgNDAgNDBDNTcuNjczMSA0MCA3MiAyNi4zMjY5IDcyIDhDNzIgNTcuNjczMSA1Ny42NzMxIDcyIDQwIDcyWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTQ4IDMySDMyVjQ4SDRWNDhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="Logo">
+            </div>
+            <div class="footer-menu">
+                <ul class="ul-reset">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="copy-text text-center">
+                <p>&copy; 2023 Ahmed. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+   
+
+    <script src="./Ahmedfaisal.js"></script>
+</body>
+</html>
